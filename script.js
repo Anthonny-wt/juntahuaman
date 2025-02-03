@@ -19,9 +19,9 @@ function generateUserData() {
     };
 
     // Real first names and last names
-    const maleNames = ["BROBER"];
-    const femaleNames = ["BROBER"];
-    const lastNames = ["HUAMAN"];
+    const maleNames = ["RUBEN"];
+    const femaleNames = ["RUBEN"];
+    const lastNames = ["DOMINGUEZ"];
 
     const now = new Date();
     const year = now.getFullYear();
@@ -259,7 +259,7 @@ function SaaSNewUsers({ groups, userTarget }) {
                 React.createElement("hr", { className: "saas__sep" }),
                 React.createElement(SaaSLargeStat, { 
                     label: "PENDIENTES GANADORES    ", 
-                    amount: 12, // Aquí se ha cambiado el valor dinámico por el número fijo 14
+                    amount: 11, // Aquí se ha cambiado el valor dinámico por el número fijo 14
                     change: userChange, 
                     amountIsLess: userChangeIsLess 
                 }),
@@ -352,7 +352,7 @@ function SaaSSalesOnline({ groups, purchaseTarget, lastNMonths = 6 }) {
                 React.createElement("div", { className: "saas__columns" },
                     React.createElement("div", { className: "saas__column" },
                         React.createElement("h3", null, 
-                            React.createElement("a", { href: "https://glass-mail-6a2.notion.site/Junta-Familia-Huaman-1787129d31e480b99c36f18b3aee138a?pvs=4", className: "saas__button", target: "_blank" }, "Configuralo con tu calendario")
+                            React.createElement("a", { href: "https://glass-mail-6a2.notion.site/Junta-Familia-Huaman-1787129d31e480b99c36f18b3aee138a?pvs=4", className: "saas__button", target: "_blank" }, "Calendario")
                         )
                     )
                 )
