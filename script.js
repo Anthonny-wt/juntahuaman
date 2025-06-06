@@ -423,7 +423,7 @@ function SaaSTopUser({ user }) {
     return (React.createElement("div", { className: "saas__columns" },
         React.createElement("div", { className: "saas__user-avatar saas__user-avatar--lg", style: style }, emoji),
         React.createElement("div", { className: "saas__user-info" },
-            React.createElement("div", { className: "saas__label" }, "Ganadora de Mayo"),
+            React.createElement("div", { className: "saas__label" }, "Ganadora de Junio"),
             React.createElement("div", { className: "saas__value saas__value--truncated" }, name),
             React.createElement("div", { className: "saas__label" }, ),
             React.createElement("div", { className: "saas__value" },
