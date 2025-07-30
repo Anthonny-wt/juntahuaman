@@ -13,15 +13,15 @@ createRoot(document.getElementById("root")).render(React.createElement(StrictMod
 function generateUserData() {
     const data = [];
     const emojiList = {
-        male: ["👱🏻‍♀️","👩🏻","👩🏻‍🦳","👩🏽","👩🏽‍🦱","👧🏿","👩🏿"],
-        female: ["👱🏻‍♀️","👩🏻","👩🏻‍🦳","👩🏽","👩🏽‍🦱","👧🏿","👩🏿"]
+        male: ["👱🏻‍♂️","👨🏻","👨🏻‍🦳","🧔🏽‍♂️","👨🏾","👨🏿‍🦱","👨🏿‍🦲"],
+        female: ["👱🏻‍♂️","👨🏻","👨🏻‍🦳","🧔🏽‍♂️","👨🏾","👨🏿‍🦱","👨🏿‍🦲"]
         //👱🏻‍♀️
     };
 
     // Real first names and last names
-    const maleNames = ["Rosy"];
-    const femaleNames = ["Rosy"];
-    const lastNames = ["Flores"];
+    const maleNames = ["Enzo"];
+    const femaleNames = ["Enzo"];
+    const lastNames = ["David"];
 
     const now = new Date();
     const year = now.getFullYear();
@@ -259,7 +259,7 @@ function SaaSNewUsers({ groups, userTarget }) {
                 React.createElement("hr", { className: "saas__sep" }),
                 React.createElement(SaaSLargeStat, { 
                     label: "PENDIENTES GANADORES    ", 
-                    amount: 7, // Aquí se ha cambiado el valor dinámico por el número fijo 14
+                    amount: 6, // Aquí se ha cambiado el valor dinámico por el número fijo 14
                     change: userChange, 
                     amountIsLess: userChangeIsLess 
                 }),
