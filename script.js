@@ -19,8 +19,8 @@ function generateUserData() {
     };
 
     // Real first names and last names
-    const maleNames = ["Jade"];
-    const femaleNames = ["Jade"];
+    const maleNames = ["Nely"];
+    const femaleNames = ["Nely"];
     const lastNames = ["Huaman"];
 
     const now = new Date();
@@ -259,7 +259,7 @@ function SaaSNewUsers({ groups, userTarget }) {
                 React.createElement("hr", { className: "saas__sep" }),
                 React.createElement(SaaSLargeStat, { 
                     label: "PENDIENTES GANADORES    ", 
-                    amount: 4, // Aquí se ha cambiado el valor dinámico por el número fijo 14
+                    amount: 3, // Aquí se ha cambiado el valor dinámico por el número fijo 14
                     change: userChange, 
                     amountIsLess: userChangeIsLess 
                 }),
@@ -423,7 +423,7 @@ function SaaSTopUser({ user }) {
     return (React.createElement("div", { className: "saas__columns" },
         React.createElement("div", { className: "saas__user-avatar saas__user-avatar--lg", style: style }, emoji),
         React.createElement("div", { className: "saas__user-info" },
-            React.createElement("div", { className: "saas__label" }, "Ganadora de Junio"),
+            React.createElement("div", { className: "saas__label" }, "Ganadora de Octubre"),
             React.createElement("div", { className: "saas__value saas__value--truncated" }, name),
             React.createElement("div", { className: "saas__label" }, ),
             React.createElement("div", { className: "saas__value" },
