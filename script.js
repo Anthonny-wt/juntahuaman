@@ -259,7 +259,7 @@ function SaaSNewUsers({ groups, userTarget }) {
                 React.createElement("hr", { className: "saas__sep" }),
                 React.createElement(SaaSLargeStat, { 
                     label: "PENDIENTES GANADORES    ", 
-                    amount: 3, // Aquí se ha cambiado el valor dinámico por el número fijo 14
+                    amount: 1, // Aquí se ha cambiado el valor dinámico por el número fijo 14
                     change: userChange, 
                     amountIsLess: userChangeIsLess 
                 }),
