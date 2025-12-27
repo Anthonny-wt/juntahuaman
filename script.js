@@ -13,14 +13,14 @@ createRoot(document.getElementById("root")).render(React.createElement(StrictMod
 function generateUserData() {
     const data = [];
     const emojiList = {
-        male: ["👱🏻‍♂️","👨🏻","👨🏻‍🦳","🧔🏽‍♂️","👨🏾","👨🏿‍🦱","👨🏿‍🦲"],
-        female: ["👱🏻‍♂️","👨🏻","👨🏻‍🦳","🧔🏽‍♂️","👨🏾","👨🏿‍🦱","👨🏿‍🦲"]
+        male: ["👱🏻‍♀️","👩🏻","👩🏻‍🦳","👩🏽","👩🏽‍🦱","👧🏿","👩🏿"],
+        female: ["👱🏻‍♀️","👩🏻","👩🏻‍🦳","👩🏽","👩🏽‍🦱","👧🏿","👩🏿"]
         //👱🏻‍♀️
     };
 
     // Real first names and last names
-    const maleNames = ["Nely"];
-    const femaleNames = ["Nely"];
+    const maleNames = ["Rocimay"];
+    const femaleNames = ["Rocimay"];
     const lastNames = ["Huaman"];
 
     const now = new Date();
